@@ -11,8 +11,8 @@
     --font-family: "Poppins", sans-serif;
     --text-lg: bold 32px/125% var(--font-family);
     --text: 16px/150% var(--font-family);
-    --text-md: 14px/175% var(--font-family);
-    --text-sm: 12px/175% var(--font-family);
+    --text-md: 14px/170% var(--font-family);
+    --text-sm: 12px/170% var(--font-family);
 }
 
 * {
@@ -68,4 +68,55 @@ nav ul li:last-child img {
     height: 40px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+header {
+    padding-block: 32px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile {
+    display: flex;
+    gap: 32px;
+}
+
+#profile img {
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+ 
+#profile > div {
+    max-width: 384px;
+}
+
+#profile h1 {
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+    margin-bottom: 8px;
+}
+
+#profile p {
+    font: var(--text-md);
+}
+
+#info {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    width: 280px;
+}
+
+#info li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
