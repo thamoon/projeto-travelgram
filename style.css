@@ -131,3 +131,15 @@ main img {
     height: 286px;
     object-fit: cover;
 }
+
+footer {
+    display: flex;
+    gap: 24px;
+    padding-block: 24px;
+
+    font: 14px/150% var(--font-family);
+}
+
+footer span:nth-child(1) {
+    margin-right: auto;
+}
